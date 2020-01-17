@@ -5,12 +5,8 @@ permalink: /about/
 published: true
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Hi there! I'm Stephan van Diepen. A product-minded full stack developer.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[contact@stevdi.com](mailto:contact@stevdi.com)
