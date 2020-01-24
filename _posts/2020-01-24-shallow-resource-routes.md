@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Resource Routes: Off The Deep End And Into The Shallow"
-published: false
+published: true
 ---
 
 ## Not a Lady Gaga song
