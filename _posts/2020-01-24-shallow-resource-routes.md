@@ -2,6 +2,7 @@
 layout: post
 title: "Resource Routes: Off The Deep End And Into The Shallow"
 published: true
+excerpt_separator: <!--more-->
 ---
 
 ## Not a Lady Gaga song
@@ -9,6 +10,8 @@ published: true
 I just got my first PR merged into Laravel! It adds the option for `shallow` resource routes. You can see the PR [here](https://github.com/laravel/framework/pull/31208).
 
 Without any knowledge of Laravel internals this feature took me about an hour to develop. Props to the laravel maintainers for an easy to navigate codebase and quick PR resolution!
+
+<!--more-->
 
 ## Who are you calling shallow now?
 
