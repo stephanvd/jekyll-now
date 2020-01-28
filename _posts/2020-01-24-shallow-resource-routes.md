@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Resource Routes: Off The Deep End And Into The Shallow"
+title: "Keep Nested Resource Routes Succint With The Shallow Option"
 published: true
 excerpt_separator: <!--more-->
 ---
 
-## Not a Lady Gaga song
+### First Laravel PR!
 
 I just got my first PR merged into Laravel! It adds the option for `shallow` resource routes. You can see the PR [here](https://github.com/laravel/framework/pull/31208).
 
-Without any knowledge of Laravel internals this feature took me about an hour to develop. Props to the laravel maintainers for an easy to navigate codebase and quick PR resolution!
+Without any prior knowledge of Laravel internals this feature took me about an hour to develop. Props to the Laravel maintainers for an easy to navigate codebase and quick PR resolution!
 
 <!--more-->
 
-## Who are you calling shallow now?
+### Shallow Nesting
 
 It's a good practice not to nest resources too deep. Routes and their url helpers quickly get unwieldy. Shallow nesting is a way to prevent deep nesting of resources. Collection actions (index, new, create) are scoped to the parent to provide context, while member actions (show, edit, update, destroy) are placed in the root or namespace when provided. This strikes a nice balance between being descriptive and being compact. An additional advantage is that records will have a single canonical route.
 
@@ -40,4 +40,4 @@ And have the following routes generated for us:
 | GET|HEAD  | foo/{foo}/bar/create | foo.bar.create | App\Http\Controllers\BarController@create  | web,auth |
 ```
 
-Coming soon to a Laravel 6.x release near you...
+Expect this feature to land in the next release of Laravel 6.x!
