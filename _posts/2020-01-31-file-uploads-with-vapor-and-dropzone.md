@@ -5,7 +5,7 @@ published: true
 excerpt_separator: <!--more-->
 ---
 
-For a startup project in Laravel we'll be launching soon I need to upload multiple files. With our AWS hosted stack deployed via Laravel Vapor the logical choice for storage is S3. To keep the load off our lambda "backend" I want it to upload to S3 straight from the browser using pre-signed URLs. For the frontend functionality I chose [Dropzone](https://www.dropzonejs.com/) because I have experience with it from previous projects. (Note to self: Check out [Uppy](https://uppy.io/))
+For a startup project in Laravel we'll be launching soon I need to upload multiple files. With our AWS hosted stack deployed via Laravel Vapor the logical choice for storage is S3. To keep the load off our lambda "backend" I want it to upload to S3 straight from the browser using pre-signed URLs. For the frontend functionality I chose Dropzone because I have experience with it from previous projects.
 
 I'm assuming you have an AWS account and permission setup with your access key and bucket configured in your .env and vapor.
 
