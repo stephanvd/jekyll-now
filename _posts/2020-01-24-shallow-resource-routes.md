@@ -39,3 +39,5 @@ And have the following routes generated for us:
 ```
 
 Expect this feature to land in the next release of Laravel 6.x!
+
+**Update:** This has now been released in [Laravel 6.13.0](https://laravel-news.com/laravel-6-13-0)!
