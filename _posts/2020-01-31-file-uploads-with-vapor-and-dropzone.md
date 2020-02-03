@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Upload files to S3 with Laravel Vapor and Dropzone.js"
+title: "Upload multiple files to S3 on Laravel Vapor with Dropzone.js"
 published: true
 excerpt_separator: <!--more-->
 ---
